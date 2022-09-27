@@ -14,7 +14,7 @@ ServiceProvider BuildServiceProvider()
         serviceCollection.AddSingleton<WebDriver, FirefoxDriver>();
         serviceCollection.AddSingleton<HarvestAutomizerAgent>();
         serviceCollection.AddSingleton<IConfiguration>
-            (new ConfigurationBuilder().AddJsonFile("AppSettings.json").Build());
+            (new ConfigurationBuilder().AddJsonFile("AppSettingsProd.json").Build());
     }
 
     return services.BuildServiceProvider();
