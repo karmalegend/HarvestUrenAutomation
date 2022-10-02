@@ -23,7 +23,7 @@ ServiceProvider BuildServiceProvider()
 
 using var serviceProvider = BuildServiceProvider();
 var bot = serviceProvider.GetRequiredService<HarvestAutomizerAgent>();
-bot.LoginToZohoPeople();
+bot.Start();
 
 
 
