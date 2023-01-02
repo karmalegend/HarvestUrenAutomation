@@ -527,3 +527,4 @@ $RECYCLE.BIN/
 
 # AppSettings
 AppSettingsProd.json
+/OauthAttempt/appsettings.json
